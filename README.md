@@ -55,8 +55,8 @@ Linux:
 mv ArambalaCarajo-BACKEND/ /home/$USER/java-workspace/
 ```
 #### 3. Configurar Spring Properties
-Archivo de configuracion `application.properties`
-En `spring.datasource.password=` agregar la contraseña para el rol `arambalacarajo`.
+Archivo de configuracion `src/main/resources/application.properties`
+En `spring.datasource.password` agregar la contraseña para el rol `arambalacarajo`.
 #### 4. Opcional configurar puerto del servidor.
 Puerto por defecto `server.port = 9090`.
 #### 5. Moverse a la raiz del proyecto y ejecutar Maven.
