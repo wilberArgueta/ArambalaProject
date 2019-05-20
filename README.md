@@ -37,7 +37,6 @@ values
  INSERT INTO usuario (id_usuario, nick, pass) 
  VALUES (1,'admin','$2a$10$Oyk1yfPfVK0lgKZUIvoh1e.xNRhyCdATvUJc0k1rVsoqrRapZodCO') 
 ```
-##### Por defecto el usuario es: `admin` y la clave: `admin`, se recomienda cambiar la contraseña a una mas fuerte de una longitud mayor a 8 caracteres que contenga MAYUSCULAS y minusculas, asi como numeros y simbolos.
 ```sql
 INSERT INTO usuario_role (id_usuario_role, id_role,id_usuario) 
  VALUES(1, 1, 1); 
@@ -46,6 +45,8 @@ INSERT INTO usuario_role (id_usuario_role, id_role,id_usuario)
 INSERT INTO usuario_empleado(id_usuario_empleado, id_usuario, cod_empleado)
 VALUES(1,1,'E-00001');
 ```
+##### Por defecto el usuario es: `admin` y la clave: `admin`, se recomienda cambiar la contraseña a una mas fuerte de una longitud mayor a 8 caracteres que contenga MAYUSCULAS y minusculas, asi como numeros y simbolos.
+
 #### 5. Agregar categoria de menus
 ```sql
  INSERT INTO categoria
