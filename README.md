@@ -46,6 +46,15 @@ INSERT INTO usuario_role (id_usuario_role, id_role,id_usuario)
 INSERT INTO usuario_empleado(id_usuario_empleado, id_usuario, cod_empleado)
 VALUES(1,1,'E-00001');
 ```
+#### 5. Agregar categoria de menus
+```sql
+ INSERT INTO categoria
+      VALUES
+          (1, 'Alimentos', 'CA01'),
+          (2,'Servicios','CS02'),
+          (3,'Cabañas','CC03'); 
+
+```
 ### Configurar proyecto
 #### 1. Descargar el Backend
 ` git clone https://github.com/wilberArgueta/ArambalaCarajo-BACKEND.git`
